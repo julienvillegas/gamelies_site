@@ -1,0 +1,28 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /shooter/
+  static_files: www/shooter/index.html
+  upload: www/shooter/index.html
+
+- url: /shooter/presskit/
+  static_files: www/shooter/presskit/index.html
+  upload: www/shooter/presskit/index.html
+
+- url: /sherlockhome/
+  static_files: www/sherlockhome/index.html
+  upload: www/sherlockhome/index.html
+
+- url: /sherlockhome/presskit/
+  static_files: www/sherlockhome/presskit/index.html
+  upload: www/sherlockhome/presskit/index.html
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
