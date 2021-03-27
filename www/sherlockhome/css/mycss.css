@@ -6,7 +6,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -37,7 +37,7 @@
   background-color: transparent;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 360px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
@@ -112,14 +112,14 @@
   font-size: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 360px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 360px) {
   .masthead {
     height: 100vh;
     padding: 0;
@@ -179,7 +179,7 @@
   padding: 2rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 360px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
@@ -191,7 +191,7 @@
   font-size: 90%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 360px) {
   .projects-section .project-text {
     padding: 5rem;
   }
@@ -329,6 +329,11 @@ body, html {
     color: #ff7300;
       font-family: 'Playkidz', sans-serif;
 
+}
+
+.trailerLink {
+ color: #ffa052;
+      font-family: 'Playkidz', sans-serif;
 }
 
 @font-face {
