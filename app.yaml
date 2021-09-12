@@ -7,13 +7,13 @@ handlers:
   static_files: www/index.html
   upload: www/index.html
 
-- url: /shooter/
-  static_files: www/shooter/index.html
-  upload: www/shooter/index.html
+- url: /neobuster/
+  static_files: www/neobuster/index.html
+  upload: www/neobuster/index.html
 
-- url: /shooter/presskit/
-  static_files: www/shooter/presskit/index.html
-  upload: www/shooter/presskit/index.html
+- url: /neobuster/presskit/
+  static_files: www/neobuster/presskit/index.html
+  upload: www/neobuster/presskit/index.html
 
 - url: /sherlockhome/
   static_files: www/sherlockhome/index.html
